@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+    font-family: 'PT Sans';
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0 0 40px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.nav-item {
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 13px 0;
+    margin: 0;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 13px 0,;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Staatliches';
+}
+
+.main {
+    padding-top: 130px;
+}
+
+hr {
+    width: 100px;
+    height: 8px;
+    background: #000000;
+    margin:0 0 20px;
+}
+sup {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    max-width: 100px;
+    height: 20px;
+}
+
+mark {
+    background-color: rgb(192, 192,192);
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+.aside {
+    width: 30%;
+    position: relative;
+}
+
+.aside .aside-list {
+    list-style: none;
+    position: sticky;
+    top: 0;
+}
+
+.aside-link {
+    text-decoration: none;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.aside-item {
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.main-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    position: relative;
+    /* position: relative;
+    background-image: url('../img/bg-picture.svg');
+    background-repeat: no-repeat;
+    background-position: top 130px right 50px;
+    background-attachment: fixed; */  
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
